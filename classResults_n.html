@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Class results: no</title>
+    <link rel="stylesheet" href="./css/classResults_n.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="./js/classResults_n.js"></script>
+</head> 
+<body>
+    <div class="bg">
+        <div id="id1" class="text">To get an overall percentage of: </div>
+        <form id="getPercent">
+            <select id="firstDigit" name="firstDigit" class="form-control">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <select id="secondDigit" class="form-control">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <div class="text" id="decimal">.</div>
+            <select id="thirdDigit" class="form-control">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <div id="percent" class="text">%</div>
+
+            <input type="submit" name="Submit" id="submitBtn" class="btn btn-info" />
+        </form>
+
+        <div class="text" id="id2">You will need a score of... </div>
+        <div id="result"></div>
+        <div class="text" id="id3">on your next assignment. </div>
+
+        <button id="goBack" class="btn btn-info">Go back to edit fields</button>
+
+    </div>
+</body>
+</html>

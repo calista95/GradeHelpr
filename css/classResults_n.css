@@ -1,0 +1,119 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.text {
+    font-family: "Arial", Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#id1 {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    display: inline-block;
+}
+
+#firstDigit {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+
+#secondDigit {
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+
+#thirdDigit {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+}
+#percent {
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    display: inline-block;
+}
+
+#submitBtn {
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    display: inline-block;
+}
+
+#id2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    display: inline-block;
+}
+
+#id3 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    display: inline-block;
+}
+
+#result {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-family: "Arial", Times, serif;
+    font-style: oblique;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#goBack {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: inline-block;
+}
+
+#decimal {
+    position: absolute;
+    top: 23%;
+    left: 28%;
+    display: inline-block;
+}

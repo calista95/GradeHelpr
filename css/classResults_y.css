@@ -1,0 +1,61 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+ 
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.text {
+    font-family: "Arial", Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#final {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    display: inline-block;
+}
+
+#finalGrade {
+    font-family: "Arial", Times, serif;
+    font-style: oblique;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    display: inline-block;
+}
+
+#goBack {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: inline-block;
+}

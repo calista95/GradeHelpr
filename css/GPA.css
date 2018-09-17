@@ -1,0 +1,220 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+    min-width: 700px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#home {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    display: inline-block;
+}
+
+#home2 {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    display: inline-block;
+}
+
+.text {
+    font-family: "Arial", Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#fill {
+    position: absolute;
+    top: 15%;
+    left: 38%;
+    display: inline-block;
+}
+
+#units {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    display: inline-block;
+}
+
+#class1 {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    display: inline-block;
+}
+
+#unit1 {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade1 {
+    height: 28px;
+    width: 65px;
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    display: inline-block;
+}
+
+#submit {
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    display: inline-block;
+}
+
+#class2 {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: inline-block;
+}
+
+#unit2 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade2 {
+    height: 28px;
+    width: 65px;
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    display: inline-block;
+}
+
+#class3 {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    display: inline-block;
+}
+
+#unit3 {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade3 {
+    height: 28px;
+    width: 65px;
+    position: absolute;
+    top: 45%;
+    left: 52%;
+    display: inline-block;
+}
+
+#class4 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    display: inline-block;
+}
+
+#unit4 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade4 {
+    height: 28px;
+    width: 65px;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    display: inline-block;
+}
+
+#class5 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    display: inline-block;
+}
+
+#unit5 {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade5 {
+    height: 28px;
+    width: 65px;
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    display: inline-block;
+}
+
+#class6 {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    display: inline-block;
+}
+
+#unit6 {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    display: inline-block;
+}
+
+#grade6 {
+    height: 28px;
+    width: 65px;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    display: inline-block;
+}
+
+#error {
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    display: inline-block;
+    color: red;
+}
